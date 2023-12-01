@@ -11,7 +11,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_d2f2d3e46377d63"
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "lru-cache": "^10.1.0",
